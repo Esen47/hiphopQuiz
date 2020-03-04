@@ -22,7 +22,7 @@ form.addEventListener('submit', e => {
     } else {
         result.innerHTML = `<span> </span> <br> You are a hip-hop game connoisseur`;
     }
-    scrollTo(0,250);
+    scrollTo(0,155);
 
     let output = 0;
     const timer = setInterval(() => {
@@ -32,7 +32,7 @@ form.addEventListener('submit', e => {
         } else {
             output++;
         }
-    }, 10);
+    }, 35);
 });
 
 

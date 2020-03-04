@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.2;
+    font-family: 'Odibee Sans', cursive;
+    background: #7F797C;
+}
+.intro, .outro {
+    background: url('90s.jpg');
+    background-size: contain;
+    height: 20%;
+}
+.quiz h2 {
+    color: #ccc9ca;
+    font-size: 22px;
+}
+.quiz h2 span {
+    display: inline-block;
+}
+.quiz-form p {
+    color: #f2f1f2;
+    font-size: 18px;
+}
+.btn:focus {
+    box-shadow: none;
+}
+#submit-result {
+    background-color: #fff;
+    color: #7F797C;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 10px 0;
+    transition: all .3s;
+}
+#submit-result:hover {
+    background-color: #ccc9ca;
+    color: #fff;
+}
+
+@media (min-width: 576px) {
+    .quiz-form {
+        font-size: 16px;
+    }
+    .quiz h2 {
+        font-size: 26px;
+    }
+    .quiz p {
+        font-size: 20px;
+    }
+}
+@media (min-width: 768px) {
+    .quiz-form {
+        font-size: 17px;
+    }
+    .quiz h2 {
+        font-size: 28px;
+    }
+    .quiz p {
+        font-size: 22px;
+    }
+    #submit-result {
+        font-size: 14px;
+    }
+}
+@media (min-width: 992px) {
+    #submit-result {
+        font-size: 16px;
+    }
+    .quiz h2 {
+        font-size: 30px;
+    }
+}
+@media (min-width: 1200px) {
+    .quiz-form {
+        font-size: 18px;
+    }
+    .quiz h2 {
+        font-size: 36px;
+    }
+    .quiz p {
+        font-size: 24px;
+    }
+}
